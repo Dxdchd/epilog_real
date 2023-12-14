@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".makeblog">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4">
+
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:text="title"
+                android:textSize="60sp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom"
+                android:src="@drawable/loacation_png"></ImageView>
+
+            <TextView
+                android:id="@+id/locationbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom"
+                android:background="@android:color/transparent"
+                android:gravity="start"
+                android:paddingLeft="23dp"
+                android:text="loca"
+                android:textColor="@color/gray"
+                android:textSize="30dp"></TextView>
+
+            <ImageView
+                android:id="@+id/weather"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginEnd="100dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/sunny"></ImageView>
+
+            <ImageView
+                android:id="@+id/feel"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="end|center_vertical"
+                android:background="@android:color/transparent"
+                android:src="@drawable/laugh"></ImageView>
+
+
+            <TextView
+                android:id="@+id/datebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/medium"
+                android:text="date"
+                android:textSize="50sp"></TextView>
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8">
+
+
+            <ImageView
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:paddingHorizontal="30dp"
+                android:scaleType="fitXY"
+                android:src="@color/blue" />
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.8"
+            android:paddingHorizontal="30dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="40dp"
+                android:background="@color/gray" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="80dp"
+                android:background="@color/gray" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="120dp"
+                android:background="@color/gray" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="160dp"
+                android:background="@color/gray" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="200dp"
+                android:background="@color/gray" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="240dp"
+                android:background="@color/gray" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="280dp"
+                android:background="@color/gray" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="320dp"
+                android:background="@color/gray" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="360dp"
+                android:background="@color/gray" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="400dp"
+                android:background="@color/gray" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="440dp"
+                android:background="@color/gray" />
+
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineHeight="40dp"
+                android:text="가나다라가나다라가나다라가나다라가나다라가나다라가나다라가나다라가나다라가나다라가나다라가나다라가나다라가나다라가나다라가나다라"
+                android:textSize="40dp"></TextView>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

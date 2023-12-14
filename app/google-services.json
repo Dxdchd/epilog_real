@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "124065669187",
+    "project_id": "epilog-fb2c5",
+    "storage_bucket": "epilog-fb2c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124065669187:android:4336cdc4069437e48bb4f6",
+        "android_client_info": {
+          "package_name": "com.example.epilog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124065669187-81lbhoh3dmv7i5mujpjrgdpv6vie7u1l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.epilog",
+            "certificate_hash": "9d75a6667290a1f7ac15aa0f37860ef63fab0330"
+          }
+        },
+        {
+          "client_id": "124065669187-bijo3omlr3ukqv9t0gngvemoeei5pgqe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.epilog",
+            "certificate_hash": "b08ee136eb666fecf8ac5ba2d931faa3b1de1776"
+          }
+        },
+        {
+          "client_id": "124065669187-nvom107u15hqm5upjqh5ekr1a5k5vrts.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.epilog",
+            "certificate_hash": "d848e0548bdbb63cfd419730b65a4e9acc02f3c6"
+          }
+        },
+        {
+          "client_id": "124065669187-t1m84okq926vsbvkfndqpr6dvrre4fq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf_H3EUu9Z_px5LGDshy370LF5rO1JLtA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124065669187-t1m84okq926vsbvkfndqpr6dvrre4fq7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,466 @@
+[
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable-mdpi_checked.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable-mdpi/checked.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_snowy.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/snowy.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_sad.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/sad.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_loacation_png.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/loacation_png.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.epilog.app-main-60:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_blog_logo.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/blog_logo.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.epilog.app-main-60:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_nofriends.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/nofriends.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_nomyblog.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/nomyblog.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_activity_select_blog_to_book.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/activity_select_blog_to_book.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_mad.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/mad.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_activity_makeblog.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/activity_makeblog.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_shadowonlybottom.xml.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/shadowonlybottom.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_closebtn.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/closebtn.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_calanderview.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/calanderview.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_white_round_btn.xml.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/white_round_btn.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.epilog.app-main-60:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_checkedblog.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/checkedblog.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_fragment_calander.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/fragment_calander.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_blog_check.xml.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/blog_check.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_booklistitem.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/booklistitem.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_friendlist.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/friendlist.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.epilog.app-main-60:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_commentslayout.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/commentslayout.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_laugh.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/laugh.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_epilog_small_logo.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/epilog_small_logo.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_top_app_logo.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/top_app_logo.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_soso.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/soso.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.epilog.app-main-60:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.epilog.app-main-60:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable-xhdpi_checked.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable-xhdpi/checked.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_roundbtn.xml.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/roundbtn.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_book_logo.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/book_logo.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_rainy.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/rainy.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable-xxxhdpi_checked.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable-xxxhdpi/checked.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_welcome.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/welcome.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_activity_main.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_friendrequestrecycler.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/friendrequestrecycler.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/color_menu_selector_color.xml.flat",
+        "source": "com.example.epilog.app-main-60:/color/menu_selector_color.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_sunny.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/sunny.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.epilog.app-main-60:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_nickname.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/nickname.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_friendcalander.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/friendcalander.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_kakaologin.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/kakaologin.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_filledheart.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/filledheart.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.epilog.app-main-60:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_uncheckedblog.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/uncheckedblog.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_bg_indicator_active.xml.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/bg_indicator_active.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_welcome_image.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/welcome_image.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_nobook.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/nobook.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_bg_indicator_inactive.xml.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/bg_indicator_inactive.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_corner.xml.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/corner.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_addfriend.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/addfriend.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_fragment_settings.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.epilog.app-main-60:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_comments.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/comments.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_info.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/info.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_add_image.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/add_image.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_smile.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/smile.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_windy.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/windy.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_colorchecked.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/colorchecked.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_svg_checked.xml.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/svg_checked.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_cloudy.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/cloudy.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_back_button.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/back_button.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable-hdpi_checked.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable-hdpi/checked.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.epilog.app-main-60:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_nofriendsblog.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/nofriendsblog.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_nonfillheart.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/nonfillheart.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_usericon.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/usericon.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_delete.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/delete.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_kakao.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/kakao.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.epilog.app-main-60:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.epilog.app-main-60:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_applogo.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/applogo.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_activity_friends_calandar.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/activity_friends_calandar.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_toastlayout.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/toastlayout.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_circle.xml.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/circle.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.epilog.app-main-60:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/xml_backup_rules.xml.flat",
+        "source": "com.example.epilog.app-main-60:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_feel_weather_radio.xml.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/feel_weather_radio.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_pdflayout.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/pdflayout.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.epilog.app-main-60:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_activity_home.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/font_medium.ttf.flat",
+        "source": "com.example.epilog.app-main-60:/font/medium.ttf"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_friends_logo.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/friends_logo.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/font_bold.ttf.flat",
+        "source": "com.example.epilog.app-main-60:/font/bold.ttf"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_black_round_btn.xml.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/black_round_btn.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable-xxhdpi_checked.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable-xxhdpi/checked.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.epilog.app-main-60:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_feel_weather.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/feel_weather.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_fragment_friendslist.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/fragment_friendslist.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_calanderday.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/calanderday.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_requestfriend.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/requestfriend.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_calander_logo.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/calander_logo.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_activity_booklist.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/activity_booklist.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.epilog.app-main-60:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_google_logo.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/google_logo.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_friendbottomsheet.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/friendbottomsheet.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_friendblogrecycler.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/friendblogrecycler.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_imageslider.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/imageslider.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_blog_recycler.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/blog_recycler.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_shadow.xml.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/shadow.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_make_blog_logo.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/make_blog_logo.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_deletefriend.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/deletefriend.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/font_fontfamily.xml.flat",
+        "source": "com.example.epilog.app-main-60:/font/fontfamily.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/navigation_mobile_navigation.xml.flat",
+        "source": "com.example.epilog.app-main-60:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_reject.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/reject.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_activity_basic_blog_view.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/activity_basic_blog_view.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_comments.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/comments.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_next_black_btn.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/next_black_btn.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/menu_nav_menu.xml.flat",
+        "source": "com.example.epilog.app-main-60:/menu/nav_menu.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_none.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/none.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.epilog.app-main-60:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/drawable_settings_logo.png.flat",
+        "source": "com.example.epilog.app-main-60:/drawable/settings_logo.png"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/layout_fragment_blog.xml.flat",
+        "source": "com.example.epilog.app-main-60:/layout/fragment_blog.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-merged_res-58:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.epilog.app-main-60:/mipmap-hdpi/ic_launcher.webp"
+    }
+]

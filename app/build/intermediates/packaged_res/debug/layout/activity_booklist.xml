@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".booklist">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="나의 일기장"
+            android:textColor="@color/black"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/bookback"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start|center"
+            android:layout_marginStart="10dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/back_button">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/addbook"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end|center"
+            android:layout_marginEnd="10dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/make_blog_logo">
+
+        </ImageButton>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ScrollView>
+
+        <ImageView
+            android:layout_width="263dp"
+            android:layout_height="211dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/nobook">
+        </ImageView>
+    </FrameLayout>
+
+</LinearLayout>

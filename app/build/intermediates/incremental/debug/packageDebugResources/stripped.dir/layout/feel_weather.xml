@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_round_btn">
+
+    <TextView
+        android:id="@+id/wftxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="17dp"
+        android:text="날씨 및 감정 선택"
+        android:textSize="20dp"></TextView>
+
+    <FrameLayout
+        android:id="@+id/feelframe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wftxt">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/laugh"></ImageView>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/smile"></ImageView>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/soso"></ImageView>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/mad"></ImageView>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/sad"></ImageView>
+
+        <RadioGroup
+            android:id="@+id/dialogfeel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkedButton="@id/laughradio"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/laughradio"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"
+                android:button="@null"
+                android:drawableLeft="@drawable/feel_weather_radio"
+                android:scaleX="0.4"
+                android:scaleY="0.4"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/smileradio"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:button="@null"
+                android:drawableLeft="@drawable/feel_weather_radio"
+                android:scaleX="0.4"
+                android:scaleY="0.4"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/sosoradio"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:button="@null"
+                android:drawableLeft="@drawable/feel_weather_radio"
+                android:scaleX="0.4"
+                android:scaleY="0.4"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/madradio"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:button="@null"
+                android:drawableLeft="@drawable/feel_weather_radio"
+                android:scaleX="0.4"
+                android:scaleY="0.4"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/sadradio"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:button="@null"
+                android:drawableLeft="@drawable/feel_weather_radio"
+                android:scaleX="0.4"
+                android:scaleY="0.4"></RadioButton>
+        </RadioGroup>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/weatherframe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/feelframe">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/sunny"></ImageView>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/cloudy"></ImageView>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/rainy"></ImageView>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/snowy"></ImageView>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/windy"></ImageView>
+
+        <RadioGroup
+            android:id="@+id/dialogweather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:checkedButton="@id/sunnyradio"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/sunnyradio"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="40dp"
+                android:button="@null"
+                android:drawableLeft="@drawable/feel_weather_radio"
+                android:scaleX="0.4"
+                android:scaleY="0.4"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/cloudyradio"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:button="@null"
+                android:drawableLeft="@drawable/feel_weather_radio"
+                android:scaleX="0.4"
+                android:scaleY="0.4"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/rainyradio"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:button="@null"
+                android:drawableLeft="@drawable/feel_weather_radio"
+                android:scaleX="0.4"
+                android:scaleY="0.4"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/snowyradio"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:button="@null"
+                android:drawableLeft="@drawable/feel_weather_radio"
+                android:scaleX="0.4"
+                android:scaleY="0.4"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/windyradio"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:button="@null"
+                android:drawableLeft="@drawable/feel_weather_radio"
+                android:scaleX="0.4"
+                android:scaleY="0.4"></RadioButton>
+        </RadioGroup>
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/nulllayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/weatherframe"
+        android:layout_alignEnd="@+id/weatherframe"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/none"></ImageView>
+
+        <ImageButton
+            android:id="@+id/wfdone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/black_round_btn"
+            android:scaleType="centerInside"
+            android:src="@drawable/next_black_btn" />
+    </LinearLayout>
+
+</RelativeLayout>

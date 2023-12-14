@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/fragment_blog.xml",
+        "source": "com.example.epilog.app-main-60:/layout/fragment_blog.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/activity_main.xml",
+        "source": "com.example.epilog.app-main-60:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/activity_friends_calandar.xml",
+        "source": "com.example.epilog.app-main-60:/layout/activity_friends_calandar.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/friendblogrecycler.xml",
+        "source": "com.example.epilog.app-main-60:/layout/friendblogrecycler.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/friendbottomsheet.xml",
+        "source": "com.example.epilog.app-main-60:/layout/friendbottomsheet.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/imageslider.xml",
+        "source": "com.example.epilog.app-main-60:/layout/imageslider.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/booklistitem.xml",
+        "source": "com.example.epilog.app-main-60:/layout/booklistitem.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/activity_makeblog.xml",
+        "source": "com.example.epilog.app-main-60:/layout/activity_makeblog.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/nickname.xml",
+        "source": "com.example.epilog.app-main-60:/layout/nickname.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/pdflayout.xml",
+        "source": "com.example.epilog.app-main-60:/layout/pdflayout.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/commentslayout.xml",
+        "source": "com.example.epilog.app-main-60:/layout/commentslayout.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/fragment_settings.xml",
+        "source": "com.example.epilog.app-main-60:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/comments.xml",
+        "source": "com.example.epilog.app-main-60:/layout/comments.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/fragment_friendslist.xml",
+        "source": "com.example.epilog.app-main-60:/layout/fragment_friendslist.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/activity_booklist.xml",
+        "source": "com.example.epilog.app-main-60:/layout/activity_booklist.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/activity_basic_blog_view.xml",
+        "source": "com.example.epilog.app-main-60:/layout/activity_basic_blog_view.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/activity_select_blog_to_book.xml",
+        "source": "com.example.epilog.app-main-60:/layout/activity_select_blog_to_book.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/fragment_calander.xml",
+        "source": "com.example.epilog.app-main-60:/layout/fragment_calander.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/friendlist.xml",
+        "source": "com.example.epilog.app-main-60:/layout/friendlist.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/calanderday.xml",
+        "source": "com.example.epilog.app-main-60:/layout/calanderday.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/calanderview.xml",
+        "source": "com.example.epilog.app-main-60:/layout/calanderview.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/friendrequestrecycler.xml",
+        "source": "com.example.epilog.app-main-60:/layout/friendrequestrecycler.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/toastlayout.xml",
+        "source": "com.example.epilog.app-main-60:/layout/toastlayout.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/blog_recycler.xml",
+        "source": "com.example.epilog.app-main-60:/layout/blog_recycler.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/feel_weather.xml",
+        "source": "com.example.epilog.app-main-60:/layout/feel_weather.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/welcome.xml",
+        "source": "com.example.epilog.app-main-60:/layout/welcome.xml"
+    },
+    {
+        "merged": "com.example.epilog.app-mergeDebugResources-57:/layout/activity_home.xml",
+        "source": "com.example.epilog.app-main-60:/layout/activity_home.xml"
+    }
+]

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgray">#B35E5E5E</color>
+    <color name="black">#FF000000</color>
+    <color name="blue">#7694FF</color>
+    <color name="gray">#9B9B9B</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="kakao">#FFFEE500</color>
+    <color name="newgray">#5E5E5E</color>
+    <color name="othergray">#434343</color>
+    <color name="red">#FF6262</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dialog_margin">20dp</dimen>
+    <string name="app_name">epilog</string>
+    <string name="default_web_client_id" translatable="false">124065669187-t1m84okq926vsbvkfndqpr6dvrre4fq7.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">124065669187</string>
+    <string name="google_api_key" translatable="false">AIzaSyDf_H3EUu9Z_px5LGDshy370LF5rO1JLtA</string>
+    <string name="google_app_id" translatable="false">1:124065669187:android:4336cdc4069437e48bb4f6</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDf_H3EUu9Z_px5LGDshy370LF5rO1JLtA</string>
+    <string name="google_storage_bucket" translatable="false">epilog-fb2c5.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="project_id" translatable="false">epilog-fb2c5</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_home">Home</string>
+    <string name="title_notifications">Notifications</string>
+    <style name="Base.Theme.Epilog" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:buttonStyle">@style/customButtonFontStyle</item>
+        <item name="android:editTextStyle">@style/customEditTextFontStyle</item>
+        <item name="android:radioButtonStyle">@style/customRadioButtonFontStyle</item>
+        <item name="android:checkboxStyle">@style/customCheckboxFontStyle</item>
+    </style>
+    <style name="Theme.Epilog" parent="Base.Theme.Epilog"/>
+    <style name="customButtonFontStyle" parent="@android:style/Widget.DeviceDefault.Button.Borderless">
+        <item name="android:fontFamily">@font/fontfamily</item>
+    </style>
+    <style name="customCheckboxFontStyle" parent="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox">
+        <item name="android:fontFamily">@font/fontfamily</item>
+    </style>
+    <style name="customEditTextFontStyle" parent="@android:style/Widget.DeviceDefault.EditText">
+        <item name="android:fontFamily">@font/fontfamily</item>
+    </style>
+    <style name="customRadioButtonFontStyle" parent="@android:style/Widget.DeviceDefault.CompoundButton.RadioButton">
+        <item name="android:fontFamily">@font/fontfamily</item>
+    </style>
+    <style name="customTextViewFontStyle" parent="@android:style/Widget.DeviceDefault.TextView">
+        <item name="android:fontFamily">@font/fontfamily</item>
+    </style>
+</resources>

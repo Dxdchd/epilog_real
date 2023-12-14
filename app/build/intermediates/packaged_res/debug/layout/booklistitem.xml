@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shadow">
+
+    <ImageView
+        android:background="@drawable/corner"
+        android:id="@+id/booklistimage"
+        android:adjustViewBounds="true"
+        android:layout_width="120dp"
+        android:layout_height="80dp"></ImageView>
+
+    <TextView
+        android:id="@+id/booklisttitle"
+        android:layout_width="120dp"
+        android:layout_height="15dp"
+        android:layout_below="@id/booklistimage"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="길가다가 고양이봄 ㅋ"
+        android:textSize="12dp"></TextView>
+
+    <TextView
+        android:id="@+id/booklistdate"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/booklisttitle"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="2000년 6월 2일 (금)"
+        android:textSize="10dp"></TextView>
+
+    <CheckBox
+        android:id="@+id/blogchk"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignEnd="@id/booklistimage"
+        android:background="@drawable/blog_check"
+        android:button="@null"
+        android:checked="false"></CheckBox>
+
+</RelativeLayout>

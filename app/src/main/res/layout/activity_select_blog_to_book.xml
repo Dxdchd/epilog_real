@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".booklist">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="일기장 내보내기"
+            android:textColor="@color/black"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/makebookback"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start|center"
+            android:layout_marginStart="10dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/back_button">
+
+        </ImageButton>
+
+        <Button
+            android:id="@+id/makeNext"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/black_round_btn"
+            android:text="다음으로"
+            android:textColor="@color/white" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_weight="0.2"
+        android:gravity="center_vertical"
+        android:text="일기장에 포함될 일기를 선택해주세요."
+        android:textSize="20dp"></TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/makebookrecycler"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.8"></androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

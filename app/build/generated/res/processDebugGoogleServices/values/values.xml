@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">124065669187-t1m84okq926vsbvkfndqpr6dvrre4fq7.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">124065669187</string>
+    <string name="google_api_key" translatable="false">AIzaSyDf_H3EUu9Z_px5LGDshy370LF5rO1JLtA</string>
+    <string name="google_app_id" translatable="false">1:124065669187:android:4336cdc4069437e48bb4f6</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDf_H3EUu9Z_px5LGDshy370LF5rO1JLtA</string>
+    <string name="google_storage_bucket" translatable="false">epilog-fb2c5.appspot.com</string>
+    <string name="project_id" translatable="false">epilog-fb2c5</string>
+</resources>

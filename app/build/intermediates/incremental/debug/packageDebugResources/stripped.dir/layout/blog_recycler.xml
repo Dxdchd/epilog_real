@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shadow"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/recyclerdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:includeFontPadding="false"
+            android:text="here is date"
+            android:textSize="12dp"></TextView>
+
+        <TextView
+            android:id="@+id/recyclertitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:text="here is title"
+            android:textSize="17dp"></TextView>
+
+        <ImageView
+            android:id="@+id/recyclerimg"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerCrop"></ImageView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/loacation_png"></ImageView>
+
+            <TextView
+                android:id="@+id/loca"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:ellipsize="marquee"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:text="dddd"
+                android:textColor="@color/gray"
+                android:textSize="10dp"></TextView>
+
+            <ImageView
+                android:id="@+id/weather"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="end|bottom"
+                android:layout_marginEnd="25dp"
+                android:src="@drawable/cloudy"></ImageView>
+
+            <ImageView
+                android:id="@+id/feel"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="end|bottom"
+                android:src="@drawable/laugh"></ImageView>
+        </FrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

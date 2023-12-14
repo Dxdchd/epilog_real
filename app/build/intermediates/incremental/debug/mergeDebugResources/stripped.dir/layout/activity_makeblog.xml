@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".makeblog">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="일기 작성"
+                android:textColor="@color/black"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <ImageButton
+                android:id="@+id/blogback"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="start|center"
+                android:layout_marginStart="10dp"
+                android:background="@android:color/transparent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/back_button">
+
+            </ImageButton>
+
+            <Button
+                android:id="@+id/makesuc"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/black_round_btn"
+                android:includeFontPadding="false"
+                android:scaleType="centerInside"
+                android:text="완료"
+                android:textColor="@color/white"
+                android:textSize="13dp"></Button>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp">
+
+                <Button
+                    android:id="@+id/datebtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/medium"
+                    android:text="2000년 12월 31일 (금)"
+                    android:textSize="12sp"></Button>
+
+                <EditText
+                    android:id="@+id/title"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/datebtn"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="5dp"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:gravity="start"
+                    android:hint="제목을 입력하세요."
+                    android:singleLine="true"
+                    android:textColorHint="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></EditText>
+
+                <ImageButton
+                    android:id="@+id/help"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_toRightOf="@+id/datebtn"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/info"></ImageButton>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/loacation_png"></ImageView>
+
+                    <EditText
+                        android:id="@+id/locationbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_below="@+id/title"
+                        android:layout_gravity="bottom"
+                        android:background="@android:color/transparent"
+                        android:gravity="left"
+                        android:hint="터치하여 위치를 추가하세요."
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/gray"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/feelWeather"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/addimg"
+
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:id="@+id/weather"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="end"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/sunny"></ImageView>
+
+                    <ImageView
+                        android:id="@+id/feel"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="end"
+                        android:layout_marginLeft="10dp"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/laugh"></ImageView>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/addimg"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/black_round_btn"
+                    android:includeFontPadding="false"
+                    android:text="사진 추가"
+
+                    android:textColor="@color/white"
+                    android:textSize="12sp"></Button>
+
+
+            </RelativeLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/viewimg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/add_image"></ImageView>
+
+
+                <androidx.viewpager2.widget.ViewPager2
+                    android:id="@+id/viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:scaleType="fitXY" />
+
+                <me.relex.circleindicator.CircleIndicator3
+                    android:id="@+id/indicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_gravity="bottom" />
+
+
+            </FrameLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="520dp"
+                android:layout_marginTop="10dp">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@color/gray" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="80dp"
+                    android:background="@color/gray" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="120dp"
+                    android:background="@color/gray" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="160dp"
+                    android:background="@color/gray" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="200dp"
+                    android:background="@color/gray" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="240dp"
+                    android:background="@color/gray" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="280dp"
+                    android:background="@color/gray" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="320dp"
+                    android:background="@color/gray" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="360dp"
+                    android:background="@color/gray" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="400dp"
+                    android:background="@color/gray" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="440dp"
+                    android:background="@color/gray" />
+
+
+                <EditText
+                    android:id="@+id/blogtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="520dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/transparent"
+                    android:gravity="top"
+                    android:hint="글을 작성해보세요!"
+                    android:includeFontPadding="false"
+                    android:inputType="text|textMultiLine"
+                    android:lineHeight="35dp" />
+
+            </RelativeLayout>
+
+            <!--        <LinearLayout-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="0dp"-->
+            <!--            android:layout_weight="1"-->
+            <!--            android:orientation="horizontal">-->
+
+            <!--            <View-->
+            <!--                android:background="@color/gray"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="1dp"/>-->
+
+            <!--            <View-->
+            <!--                android:background="@color/gray"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="1dp"/>-->
+
+            <!--            <View-->
+            <!--                android:background="@color/gray"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="1dp"/>-->
+
+            <!--        </LinearLayout>-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
